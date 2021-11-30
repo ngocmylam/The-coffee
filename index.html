@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>The Coffee House</title>
+    <link rel="icon" type="image-x-icon" href="img/favicon.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-contain">
+                <div class="header-logo">
+                    <img src="img/logo.174bdfd.svg" alt="">
+                </div>
+                <div class="header-deliver">
+                    <div class="header-deliver-contain">
+                        <div class="deliver-contain">
+                            <div class="header-deliver-image">
+                                <img src="img/Delivery 2.ced14c9.svg" alt="">
+                            </div>
+                            <div class="header-deliver-title">
+                                <h4 class="font fw630 fz15">Giao hàng</h4>
+                                <span class="font fw400 fz13">Tại: Nhập địa chỉ giao hàng</span>
+                            </div>
+                        </div>
+                        <div class="header-deliver-icon">
+                            <ion-icon name="chevron-down-outline" class="fz13 fw400"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-menu font fz14 fw600">
+                    <ul>
+                        <li>
+                            <a href="Order">Đặt 
+                                <br>
+                                hàng</a>
+                        </li>
+                        <li>
+                            <a href="News">Tin 
+                                <br>
+                                tức</a>
+                        </li>
+                        <li>
+                            <a href="Store">Cửa 
+                                <br>
+                                hàng</a>
+                        </li>
+                        <li>
+                            <a href="Promotion">Khuyến 
+                                <br>
+                                mãi</a>
+                        </li>
+                        <li>
+                            <a href="Recruitment">Tuyển 
+                                <br>
+                                dụng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-icon fz25 fw500">
+                    <div class="header-icon-contain">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </div>
+                    <div class="header-icon-contain">
+                        <ion-icon name="bag-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-menu font fz13 fw400">
+                <li>
+                    <ion-icon name="home"></ion-icon>
+                    <a href="Order">Trang chủ</a>
+                </li>
+                <li>
+                    <ion-icon name="cafe"></ion-icon>
+                    <a href="News">Đặt hàng</a>
+                </li>
+                <li>
+                    <ion-icon name="newspaper"></ion-icon>
+                    <a href="Store">Tin tức</a>
+                </li>
+                <li>
+                    <ion-icon name="storefront"></ion-icon>
+                    <a href="Promotion">Cửa hàng</a>
+                </li>
+           </div>
+        </header>
+    </div>
+    <!-- Section 1 -->
+    <section class="section1">
+        <div class="section1-contain">
+            <div class="slider fade">
+                <img src="img/Banner-WEB-CA-PHE-TAI-NHA_157687.jpg" alt="Banner">
+            </div>
+            <div class="slider fade">
+                <img src="img/baner-home-web_510005.jpg" alt="">
+            </div>
+            <div class="slider fade">
+                <img src="img/banner-web-KETNOI-1200X480(1)_280533.jpg" alt="">
+            </div>
+            <div class="section1-dot">
+                <div class="dot" onclick="currentSlide(1)"></div>
+                <div class="dot" onclick="currentSlide(2)"></div>
+                <div class="dot" onclick="currentSlide(3)"></div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- section2 -->
+    <section class="section">
+        <div class="title">
+            <ion-icon name="trophy-sharp" class="font fz30 fw500 color-orange4"></ion-icon>
+            <h2 class="font fz28 fw500 color-black">Sản phẩm từ Nhà</h2>
+        </div>
+        <div class="section2-title-menu font fz13 fw500">
+            <div class="section2-menu-overflow">
+                <ul>
+                    <li class="tabLink" onclick="openMenu(event, 'Coffee')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_coffee_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Cà Phê</a>
+                        </div>
+                    </li>
+                    <li class="tabLink" onclick="openMenu(event, 'Tea')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_tea_milk_tea_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Trà Trái Cây - Trà Sữa</a>
+                        </div>
+                    </li>
+                    <li class="tabLink" onclick="openMenu(event, 'Matcha')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_frappu_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Đá Xay - Choco - Matcha</a>
+                        </div>
+                    </li>
+                    <li class="tabLink" onclick="openMenu(event, 'TakeAway')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_cpg_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Thưởng Thức Tại Nhà</a>
+                        </div>
+                    </li>
+                    <li class="tabLink" onclick="openMenu(event, 'Snack')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_snack_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Bánh Snack</a>
+                        </div>
+                    </li>
+                    <li style="border-right: none;" class="tabLink" onclick="openMenu(event, 'Other')">
+                        <div class="section2-menu-div">
+                            <img src="img/cg_merchandise_web.png" alt="">
+                        </div>
+                        <div class="section2-menu-title">
+                            <a href="">Bộ Sưu Tập Quà Tặng</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section2-menu-contain">
+            <div class="section2-menu-tab active" id="Coffee">
+                <div class="section2-menu-card">
+                    <img src="img/caphe-suada--bacsiu_063797_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Sữa Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/cfsua-nong_235317_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Sữa Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">35.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/caphe-suada--bacsiu_408274_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Bạc Sỉu</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/bacsiunong_062500_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Bạc Sỉu Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">35.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/cfdenda-espressoDa_647698_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Đen Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/cfden_nong_016851_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Đen Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">35.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/caramel-macchiato_143623_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Caramel Macchiato Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/caramelmacchiatonong_168039_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Caramel Macchiato Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                    
+                    <img src="img/latte-da_438410_400x400.jpg" alt="">                
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Latte Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                
+                    <img src="img/latte_851143_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Latte Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                    
+                    <img src="img/classic-cold-brew_791256_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Americano Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">40.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                    
+                    <img src="img/americano-nong-app_652009_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Americano Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">40.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="section2-menu-card">                    
+                    <img src="img/Capu-da_487470_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cappuccino Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div> -->                
+            </div>
+            <div class="section2-menu-tab" id="Tea">
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-dao-cam-xa_668678_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Đào Cam Sả</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tdcs-nong_288997_400x400.jpg" alt="">                    
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Đào Cam Sả - Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">52.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-sen_905594_400x400.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Hạt Sen Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">45.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-sen-nong_025153_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Hạt Sen Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">52.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-pbt_728279_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Phúc Bồn Tử</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                    
+                    <img src="img/tra-den-matchiato_430281_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Đen Macchiato</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/hong-tra-sua-tran-chau_326977_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Hồng Trà Sữa Trân Châu</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">55.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/hong-tra-sua-nong_941687_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Hồng Trà Sữa Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/olong-nuong-tran-chau_017573_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà sữa Oolong Nướng Trân Châu</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">55.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/oolong-nuong-nong_948581_400x400 (1).jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Sữa Olong Nướng (Nóng)</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-sua-mac-ca_377522_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Trà Sữa Mắc Ca Trân Châu</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">50.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/hong-tra-latte_618293_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Hồng Trà Latte Macchiato</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">55.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-menu-tab" id="Matcha">
+                <div class="section2-menu-card">                        
+                    <img src="img/cf-da-xay-(1)_158038_400x400 (1).jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Đá Xay - Lạnh</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/Chocolate-ice-blended_183602_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cookie Đá Xay - Lạnh</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/Chocolate-ice-blended_400940_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Chocolate Đá Xay</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/cam-pbt-da-xay_326000_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Phúc Bồn Tử Cam Đá Xay</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/Chanh-sa-da-xay_170980_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Chanh Sả Đá Xay</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">49.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/DaoVietQuat_033985_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Đào Việt Quất Đá Xay</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/tra-dua-luoi_114296_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Yogurt Dưa Lưới phát tài</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">
+                    <img src="img/matchadaxay_622077_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Matcha Đá Xay</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/sinh-to-viet-quoc_145138_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Sinh Tố Việt Quất</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/matcha-latte-_936022_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Matcha Lattte Nóng</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/matcha-latte-da_083173_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Matcha Latte Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/chocolate-da_877186_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Chocolate Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">59.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-menu-tab" id="TakeAway">
+                <div class="section2-menu-card">                        
+                    <img src="img/24-lon-cpsd_225680_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Thùng 24 Lon Cà Phê Sữa Đá</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">336.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/cpsd-3in1_971575_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Sữa Đá Hòa Tan</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">44.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/peak-plavor-nopromo_715372_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Peak Flavor Hương Thơm Đỉnh Cao (350G)</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">90.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/rich-finish-nopromo_485968.jpg" alt="">
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cà Phê Rich Finish Gu Đậm Tinh Tế (350G)</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">90.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-menu-tab" id="Snack">
+                <div class="section2-menu-card">                        
+                    <img src="img/banhmique_056830_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Bánh Mì Que Pate</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/dauphongtoiot_695207_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Đậu Phộng Tỏi Ớt</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">15.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/mit-say_666228_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Mít Sấy</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">20.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/cha-bong-pho-mai_204282_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Chà Bông Phô Mai</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">32.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/camvangsaydeo_352026_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Cam Tươi Sấy Dẻo</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">35.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/kho-ga-la-chanh_995862_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Gà Xé Lá Chanh</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">25.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/hatdieumatong_327436_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Điều Vàng Mật Ong</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">30.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-menu-tab" id="Other">
+                <div class="section2-menu-card">                        
+                    <img src="img/5eb92ae0ee4dc00012633b2b_Binh-inox-ong-hut-den-nham_338437_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Ly Inox Ống Hút Đen</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">280.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/5eb92ae1ee4dc00012633b2c_Binh-inox-ong-hut-xanh-bien_233565_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Ly Inox Ống Hút Xanh Biển</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">280.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/5eb92ae1ee4dc00012633b2d_Binh-inox-ong-hut-xanh-hong_584047_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Ly Inox Ống Hút Hồng Xanh</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">280.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/thum-dua_661718_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Bình Giữ Nhiệt Inox Quả Dứa</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">300.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/con-thuyen_238139_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Bình Giữ Nhiệt Inox Con Thuyền</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">300.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/5ef00e2b91ab1a0012840421_Ly-Farm-to-cup-cao_858647_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Ly Farm To Cup (Cao)</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">150.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-menu-card">                        
+                    <img src="img/5ef00e2b91ab1a0012840422_Ly-Farm-to-cup-thap_258417_400x400.jpg" alt="">                        
+                    <div class="section2-menu-content">
+                        <div class="section2-content-top">
+                            <h2 class="font fz16 fw500">Ly Farm To Cup (Thấp)</h2>
+                        </div>
+                        <div class="section2-content-bottom">
+                            <span class="font fz15">120.000đ</span>
+                            <ion-icon name="add-circle" class="fz40"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div class="extend font fz14 fw400">
+            <span>Xem tất cả</span>
+            <ion-icon name="arrow-forward-sharp" class="font fz18 fw600"></ion-icon>
+        </div>
+    </section>
+    <!-- section3 -->
+    <section class="section">
+        <div class="title">
+            <ion-icon name="newspaper" class="font fz30 fw500 color-orange4"></ion-icon>
+            <h2 class="font fz30 fw500 color-black">Tin Tức</h2>
+        </div>
+        <div class="section3-news-cards">
+            <div class="section3-news-card">
+                <img src="img/APP-NEWS-TUNGTANG.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">ĐẾN HẸN LẠI LÊN - XUẤT CHIÊU DEAL HOT</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/NEWS.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">999 CHAI FRESH ĐÃ CHÍNH THỨC “SOLD OUT” TRONG VÒNG CHƯA ĐẦY 36 TIẾNG</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/IMGL9318_zing.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">THE COFFEE HOUSE TRỞ LẠI - AN TOÀN VÀ CHUYÊN NGHIỆP</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/h-nh-m--b-n.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">THE COFFEE HOUSE SẮP CÓ PHIÊN BẢN MỚI DÀNH RIÊNG CHO TP.HCM</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/baner-home-web_510005.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">THE COFFEE HOUSE CẬP NHẬT TÌNH TRẠNG HOẠT ĐỘNG TRỞ LẠI CỦA CÁC CỬA HÀNG TRÊN TOÀN QUỐC</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/Pre-order_Opening_1-1-.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">SÀI GÒN TRỞ LẠI - NHANH TAY ĐẶT TRƯỚC, RƯỚC QUÀ CỰC COOL</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/NEWS-APP-4.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">HẢI PHÒNG MỞ LẠI - ƯU ĐÃI NGẬP TRÀN</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+            <div class="section3-news-card">
+                <img src="img/NEWS-APP.jpg" alt="" class="news-image">
+                <div class="section3-news-title">
+                    <h4 class="font fz15 fw600">NHÀ VỀ BÌNH THƯỜNG MỚI, ĐÀ NẴNG ƠI!!!</h4>
+                </div>
+                <div class="section3-news-button">
+                    <button>ĐỌC TIẾP</button>
+                </div>
+            </div>
+        </div>
+        <div class="extend font fz14 fw400">
+            <span>Xem tất cả</span>
+            <ion-icon name="arrow-forward-sharp" class="font fz18 fw600"></ion-icon>
+        </div>
+    </section>
+    <!-- section4 -->
+    <section class="section4">
+        <div class="section4-background-image1">
+            <div class="section4-content">
+                <img src="img/squarelogo.035676b.png" alt="ss5-content-squarelogo">
+                <div class="section4-content2">
+                    <span class="font">Đặt qua app THE COFFEE HOUSE để tích điểm và hưởng quyền lợi thành viên.</span>
+                </div>
+            </div>
+            <div class="section4-store">
+                <img src="img/app-store-2.a04cf2b.png" alt="">
+                <img src="img/google-play-2.9945b62.png" alt="">
+            </div>
+       </div>
+       <div class="section4-background-image2">
+            <img src="img/newappv6.f2e1281.png" alt="">
+       </div>       
+    </section>    
+    <!-- footer -->
+    <footer> 
+        <div class="footer-more-infor">
+            <div class="footer-infor-contain font">
+                <div class="footer-infor-left">
+                    <Span class="fz11">Đặt hàng (7:00-21:00)</Span>
+                    <h5>
+                        <ion-icon name="call"></ion-icon>
+                        <p class="fz15">18006936</p>
+                    </h5>
+                </div>
+                <div class="footer-infor-right fz10">                    
+                    <p>
+                        Xem thêm
+                        <br>
+                        thông tin
+                    </p>                  
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+            </div>
+        </div>       
+        <div class="footer-contain">
+            <div class="footer-top">
+                <div class="footer-top-contain">
+                    <div class="footer-top-logo">
+                        <img src="img/logo-footer.72c86fc.png" alt="" class="footer-logo">
+                   </div>
+                   <div class="footer-infor font">
+                       <div class="footer-infor-card">
+                            <ion-icon name="add-sharp"></ion-icon>
+                            <span>Thông tin website</span>
+                            <div class="footer-under-line"></div>
+                       </div>
+                       <div class="footer-infor-card">
+                            <ion-icon name="add-sharp"></ion-icon>
+                            <span>Điều khoản sử dụng</span>
+                            <div class="footer-under-line"></div>
+                       </div>
+                       <div class="footer-infor-card">
+                            <ion-icon name="add-sharp"></ion-icon>
+                            <span>Hotline</span>
+                            <div class="footer-under-line"></div>
+                       </div>
+                       <div class="footer-infor-card">
+                            <ion-icon name="add-sharp"></ion-icon>
+                            <span>Liên hệ</span>
+                            <div class="footer-under-line"></div>
+                       </div>
+                   </div>
+                </div>            
+            </div>
+            <div class="footer-bottom">
+                <span class="font fz15 fw200">Copyright © 2021 The Coffee House. All rights reserved.</span>
+                <img src="img/active.4cba64f.png" alt="">
+            </div>
+        </div>    
+        <div class="footer-menu"></div>
+    </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/menuTab.js"></script>
+</body>
+</html>
